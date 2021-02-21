@@ -1,0 +1,26 @@
+.input-m{
+ 
+  display: flex;
+}
+.input-m2{
+  padding: 0 10px;
+  width: 50%;
+}
+.input-m2 input{
+  width: 100%;
+}
+.input-m3{
+  width: 100%;
+  padding: 0 10px;
+}
+.input-m3 input{
+  width: 97%;
+}
+@media (max-width:700px){
+  .input-m{
+    flex-direction: column;
+  }
+  .input-m2{
+    width: 95%;
+  }
+}
